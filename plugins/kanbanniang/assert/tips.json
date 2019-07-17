@@ -1,0 +1,132 @@
+{
+    "mouseover": [
+        {
+            "selector": "a[href^='http']",
+            "text": "Hình như là <span style=\"color:#4285f4;\">{text}</span> phải không？"
+        },
+        {
+            "selector": "#soloKanbanniangRSS",
+            "text": "Giống như tôi, tôi cũng thích chủ sở hữu của tôi, nhớ nhấp vào <span style=\"color:#4285f4;\">Theo dõi</span>！"
+        },
+        {
+            "selector": "#soloKanbanniangHome",
+            "text": "Bấm để đi<span style=\"color:#4285f4;\">Trang chủ</span>，Tôi muốn quay lại trang trước và sử dụng chức năng quay lại của trình duyệt."
+        },
+        {
+            "selector": "#soloKanbanniangChat",
+            "text": "Đoán xem tôi muốn nói gì"
+        },
+        {
+            "selector": "textarea",
+            "text": "Viết cẩn thận, bình luận spam bị cấm"
+        },
+        {
+            "selector": "#soloKanbanniangChange",
+            "text": "Bạn có muốn thay đổi  ?"
+        },
+        {
+            "selector": "#soloKanbanniangClose",
+            "text": "Đã đến lúc nói lời tạm biệt?"
+        },
+        {
+            "selector": "#soloKanbanniangPhoto",
+            "text": "Bạn phải chụp ảnh tôi, một hai ba ~ cà tím ~.~"
+        },
+        {
+            "selector": "#soloKanbanniang",
+            "text": "Chuột ... Chuột ở sai vị trí!"
+        },
+        {
+            "selector": "#soloKanbanniangGithub",
+            "text": "Hãy cho tôi một ngôi sao nhỏ thưởng cho tôi🌟"
+        },
+        {
+            "selector": "#soloKanbanniangRSS",
+            "text": "Giống như tôi, chỉ cần nhấp <span style=\"color:#4285f4;\">Theo dõi</span> Chủ của tôi"
+        },
+	{
+            "selector": ".title a h1 h2 h3 ",
+            "text": ["Xem nào. Đó có phải là {text}？"]
+        },
+	{
+            "selector": "a ",
+            "text": ["Xem nào. Đó là đường dẫn đến {text}？"]
+        },
+	{
+            "selector": "h3 ",
+            "text": ["Xem nào. Đó có phải là {text}？"]
+        },
+	{
+            "selector": "h2",
+            "text": ["Xem nào. Đó có phải là {text}？"]
+        },
+	{
+            "selector": "h1",
+            "text": ["Xem nào. Đó có phải là {text}？"]
+        },
+        {
+            "selector": ".search-input",
+            "text": ["Tìm kiếm một cái gì đó, cần giúp đỡ？"]
+        }
+    ],
+    "click": [
+        {
+            "selector": "#soloKanbanniang",
+            "text": ["Đừng di chuyển bàn tay của bạn! Bỏ tay ra ~ ~", "Thực sự ... thực sự không biết xấu hổ!","Hentai！", "Nếu bạn chạm vào nó một lần nữa, tôi phải gọi cảnh sát!⌇●﹏●⌇", "113? Có một sự biến thái ở đây đã chạm vào tôi.(ó﹏ò｡)"]
+        }
+    ],
+    "seasons": [
+        {
+            "date": "01/01",
+            "text": "<span style=\"color:#4285f4;\">元旦</span>了呢，新的一年又开始了，{year}年打算做些什么呢~"
+        },
+        {
+            "date": "02/14",
+            "text": "又是一年<span style=\"color:#4285f4;\">情人节</span>，{year}年找到对象了嘛~"
+        },
+        {
+            "date": "03/08",
+            "text": "今天是<span style=\"color:#4285f4;\">妇女节</span>！"
+        },
+        {
+            "date": "03/12",
+            "text": "今天是<span style=\"color:#4285f4;\">植树节</span>，要保护环境呀"
+        },
+        {
+            "date": "04/01",
+            "text": "悄悄告诉你一个秘密~<span style=\"color:#34495e;background-color:#34495e;\">今天是愚人节，不要被骗了哦~</span>"
+        },
+        {
+            "date": "05/01",
+            "text": "今天是<span style=\"color:#4285f4;\">五一劳动节</span>，计划好假期去哪里了吗~"
+        },
+        {
+            "date": "06/01",
+            "text": "<span style=\"color:#4285f4;\">儿童节</span>了呢，快活的时光总是短暂，要是永远长不大该多好啊…"
+        },
+        {
+            "date": "09/03",
+            "text": "<span style=\"color:#4285f4;\">中国人民抗日战争胜利纪念日</span>，铭记历史、缅怀先烈、珍爱和平、开创未来。"
+        },
+        {
+            "date": "09/10",
+            "text": "<span style=\"color:#4285f4;\">教师节</span>，在学校要给老师问声好呀~"
+        },
+        {
+            "date": "10/01",
+            "text": "<span style=\"color:#4285f4;\">国庆节</span>，新中国已经成立69年了呢"
+        },
+        {
+            "date": "11/05-11/12",
+            "text": "今年的<span style=\"color:#4285f4;\">双十一</span>是和谁一起过的呢~"
+        },
+        {
+            "date": "12/20-12/28",
+            "text": "这几天是<span style=\"color:#4285f4;\">圣诞节</span>，主人肯定又去剁手买买买了~"
+        },
+        {
+            "date": "12/29-12/31",
+            "text": "要<span style=\"color:#4285f4;\">年终</span>了哦~ 年初许下的愿望都实现了吗？"
+        }
+    ]
+}
