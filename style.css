@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+*{font-family: "Sacramento", cursive;}
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.card {
+	width: 600px;
+	height: 300px;
+	
+	background-image: url('IMG_358171.jpg');
+	background-position: center;
+	background-size: cover;
+	
+	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30),
+							0 15px 12px rgba(0, 0, 0, 0.22);
+	
+	transition-property: transform;
+	transition-timing-function: cubic-bezier(.550, .055, .675, .19);
+	animation: rotateright;
+	animation-duration: 2s;
+	transition: all 0.5s;
+}
+@keyframes rotateright{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+ .card1{
+	width: 600px;
+	height: 300px;
+	
+	background-image: url('IMG_358171.jpg');
+	background-position: center;
+	background-size: cover;
+	
+	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30),
+							0 15px 12px rgba(0, 0, 0, 0.22);
+	
+	transition-property: transform;
+	transition-timing-function: cubic-bezier(.550, .055, .675, .19);
+	animation: rotateleft;
+	animation-duration: 2s;
+	transition: all 0.5s;
+}
+@keyframes rotateleft{
+	0%{transform: rotate3d(0, 2, 2, 120deg);}
+	100%{transform: rotate3d(-360deg);}
+}
+
+
+
+h1 {
+	position: absolute;
+	bottom: 400px;
+  font-size: calc(15px + 15vh);
+  line-height: calc(20px + 20vh);
+/*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+    0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+  color: #fccaff; */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  font-family: "Sacramento", cursive;
+  text-align: center;
+  animation: blink 5s infinite;
+  -webkit-animation: blink 5s infinite;
+  }
+
+body {
+  padding: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #222;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 7px,
+    rgba(0, 0, 0, 0.8) 9px,
+    rgba(0, 0, 0, 0.8) 13px,
+    transparent 13px
+  );
+}
+
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+/*     color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  }
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+ 
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%
+ {
+/*     color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  }
+  0%{opacity: 0;
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;}
+  100%{opacity: 1;
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;}
+
+}
